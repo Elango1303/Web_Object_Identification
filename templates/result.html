@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Predictions</h1>
+    <ul>
+        {% for prediction in predictions %}
+        <li>{{ prediction.0 }}: {{ prediction.1 }}%</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
