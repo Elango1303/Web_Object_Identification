@@ -106,35 +106,5 @@ To customize the application:
 2. **Update UI**:
    Edit the templates in `templates/` folder to change the look and feel
 
-3. **Add Features**:
-   - User authentication
-   - Image history
-   - More detailed results display
 
-## Known Issues
 
-- Large images may take significant time to process
-- Currently only supports common image formats
-- Mobile upload experience could be improved
-
-## Future Improvements
-
-- [ ] Add progress indicators during upload and processing
-- [ ] Implement batch processing of multiple images
-- [ ] Add user accounts to save prediction history
-- [ ] Implement better error handling for unsupported file types
-- [ ] Add a preview of the uploaded image on results page
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Django team for the excellent web framework
-- Keras/TensorFlow team for the machine learning capabilities
-- ResNet authors for the powerful pretrained model
-
-## Contact
-
-For questions or support, please contact: [Your Email]
